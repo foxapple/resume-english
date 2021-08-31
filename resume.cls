@@ -32,10 +32,10 @@
 
 \RequirePackage[
 	a4paper,
-	left=0.8in,
-	right=0.8in,
-	top=0.70in,
-	bottom=0.55in,
+	left=0.3in,
+	right=0.3in,
+	top=0.30in,
+	bottom=0.30in,
 	nohead
 ]{geometry}
 
@@ -73,7 +73,7 @@
 
 \newcommand{\name}[1]{
   \centerline{\Huge\scshape{#1}}
-  \vspace{1.25ex}
+  \vspace{1.05ex}
 }
 
 % defines one's name
@@ -113,9 +113,9 @@
 
 \newcommand{\basicInfo}[1]{
   \centerline{\sffamily\large{#1}}
-  \vspace{1.5ex}
+  \vspace{0.1ex}
 }
 
 \newcommand{\role}[2]{
-  {\par \textit{#1} ~ #2 \par}
+  {\par \textit{#1} ~ #2 }
 }
